@@ -1,0 +1,3 @@
+on early-init
+    setprop sys.usb.configfs 1
+    insmod /gslX680new.ko

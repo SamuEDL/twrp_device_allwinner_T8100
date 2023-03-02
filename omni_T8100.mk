@@ -4,15 +4,16 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+ALLOW_MISSING_DEPENDENCIES := true
+
+# Release name
+PRODUCT_RELEASE_NAME := T8100
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-# Inherit some common Omni stuff.
+# Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
-
-# Inherit from T8100 device
-$(call inherit-product, device/allwinner/T8100/device.mk)
 
 PRODUCT_DEVICE := T8100
 PRODUCT_NAME := omni_T8100

@@ -31,7 +31,7 @@ repo sync
 Then add these projects to .repo/manifest.xml:
 
 ```xml
-<project path="device/allwinner/T8100" name="SamuEDL/android_device_allwinner_T8100" remote="github" revision="android-10.0" />
+<project path="device/allwinner/T8100" name="SamuEDL/twrp_device_allwinner_T8100" remote="github" revision="android-10.0" />
 ```
 
 Finally execute these:

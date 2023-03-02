@@ -1,0 +1,1 @@
+# twrp_device_allwinner_T8100

@@ -15,6 +15,7 @@ Battery | 4000 mAh
 Display | 1280 x 800 pixels IPS
 Rear Camera  | 2 MP
 Front Camera | 2 MP
+Recovery Partition Size | 32MB
 
 ## Work?
 No tested
